@@ -1,0 +1,9 @@
+server:
+  port: 38880
+  waitTimeInMsWhenSyncEmpty: 5000
+
+eureka:
+  client:
+    registerWithEureka: false
+
+fetchRegistry: false
